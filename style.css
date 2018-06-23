@@ -63,6 +63,7 @@ button{
 }
 .options{
 	border-radius: 25px;
+	height: 25%
 }
 .circle{
 	margin-top: 15%;
@@ -74,7 +75,7 @@ button{
 	background-size: 60% 60%;
 	background-repeat: no-repeat;
 	background-position: center;
-	transition:0.5s ease;
+	transition:0.2s ease;
 	}
 
 .s1{
@@ -86,4 +87,16 @@ button{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+@media (min-width: 576px){
+	body{
+		font-size: 14px;
+	}
+	.circle{
+		margin-top: 50%;
+	}
+	.d1{
+		margin-top: 10%;
+	}
 }

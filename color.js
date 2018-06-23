@@ -45,6 +45,7 @@ for(var i=1;i<span.length;i++){
 	});
 	circle.addEventListener("mouseout",function(){
 		this.style.border="";
+		this.style.backgroundSize="60% 60%";
 	});
 	span[0].addEventListener("click",function(){
 		score=0;
