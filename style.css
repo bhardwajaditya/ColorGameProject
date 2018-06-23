@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height:100%;
+	font-family: Open Sans;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+h1{
+	margin: 0;
+	
+}
+h4{
+	margin: 0;
+	
+}
+p{
+	padding: 0;
+	margin-bottom: 0;
+	
+}
+span{
+	color: #107EC3;
+}
+.header{
+	background: #04ADD4;
+	color:white;
+	height: 100%;
+	align-content: center;
+	padding: 2%;
+	transition: 5s ease;
+}
+.span1{
+	background: #107EC3;
+	color: white;
+	border: 0;
+}
+.game{
+	background:black;
+	height: 90%;
+	padding: 16px;
+	width: 100%;
+	background-size: cover
+}
+#new{
+	margin-right: 20%
+}
+.game1{
+	width: 40%;
+	color:white;
+	margin-left: 20%;
+	margin-right: 20%
+}
+button{
+	background: #0000;
+	border: 0;
+}
+.game2{
+	margin-left:15%;
+}
+.options{
+	border-radius: 25px;
+	height: 25%
+}
+.circle{
+	margin-top: 15%;
+	margin-left: 47%;
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+	background: url("play.png");
+	background-size: 60% 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition:0.2s ease;
+	}
+
+.s1{
+	align-content: center;
+	margin-left: 20%;
+}
+.s2{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media (min-width: 576px){
+	body{
+		font-size: 14px;
+	}
+	.circle{
+		margin-top: 50%;
+	}
+	.d1{
+		margin-top: 10%;
+	}
+}
