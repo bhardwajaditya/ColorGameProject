@@ -9,7 +9,7 @@ body{
 	overflow-x: hidden;
 }
 .d1{
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 h1{
@@ -92,11 +92,6 @@ button{
 	justify-content: center;
 }
 
-@media (max-width: 600px){
-	body{
-		font-size: 14px;
-	}
-	.circle{
-		margin-top: 50%;
-	}
+@media (min-width: 576px){
+	
 }
