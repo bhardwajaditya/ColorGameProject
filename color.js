@@ -32,8 +32,10 @@ for(var i=1;i<span.length;i++){
 
 	circle.addEventListener("click",function(){
 		clearInterval(interval);
-		header.style.height="18%";
+		header.style.height="25%";
 		score=0;
+		gameOver=false;
+		lives=3;
 		sco.textContent="SCORE = "+score;
 		generate();
 	});
@@ -47,6 +49,7 @@ for(var i=1;i<span.length;i++){
 	span[0].addEventListener("click",function(){
 		score=0;
 		sco.textContent="SCORE = "+score;
+		lives=3;
 		gameOver=false;
 		generate();
 	});
@@ -79,7 +82,3 @@ function add(){
 			gameOver=true;}
 		}
 }
-
-
-
-
